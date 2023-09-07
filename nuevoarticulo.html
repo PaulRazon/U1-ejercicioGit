@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="encabezado.css">
+    <title>Nuevo Articulo</title>
+</head>
+<body>
+    <header>
+        <ul>
+            <li><a href="index.html">Inicio</a></li>
+            <li><a href="nuevousuario.html">Nuevo Usuario</a></li>
+            <li><a href="consultausuarios.html">Consulta Usuarios</a></li>
+            <li><a href="nuevoarticulo.html">Nuevo Artículo</a></li>
+            <li><a href="consultaarticulos.html">Consulta Artículos</a></li>
+        </ul>
+    </header>
+    
+    <main>
+        <form action="">
+            <h1>Agregar Articulo</h1>
+            <label for="Descripcion">Descripcion:</label>
+            <input type="text" id="Descripcion" placeholder="Descripción"> <br>
+            <label for="Cantidad">Cantidad:</label>
+            <input type="number" name="Cantidad" id="Cantidad" placeholder="Cantidad">
+            <br>
+            <label for="PrecioU">Precio Unitario:</label>
+            <input type="number" name="PrecioU" id="PrecioU" placeholder="Cantidad">
+            <br>
+            <label for="Marca">Marca:</label>
+            <select name="marcas" id="marcas">
+                <option value="Samsung">Samsung</option>
+                <option value="LG">LG</option>
+                <option value="Dell">Dell</option>
+                <option value="Apple">Apple</option>
+            </select>
+            <br>
+            <input type="submit" value="Guardar" id="boton">
+        </form>
+    </main>
+</body>
+</html>
